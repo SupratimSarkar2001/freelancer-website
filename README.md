@@ -65,11 +65,11 @@ Provide instructions on how to use your application. Include any configuration s
 
 If you want to contribute to the project, provide guidelines for how others can do so.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact
+Supratim Sarkar,India
+Email- supratimsarkar2001@gmail.com
+
 
 Include your contact information or a link to your GitHub profile.
 
