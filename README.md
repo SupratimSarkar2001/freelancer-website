@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Full Stack Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a full-stack project showcasing a web application using Bootstrap for the frontend and Spring Boot with MySQL for the backend.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Bootstrap**: Responsive front-end framework
+- **React**: JavaScript library for building user interfaces
+- **React Router DOM**: Declarative routing for React.js
+- **Axios**: Promise-based HTTP client for the browser and Node.js
+- **Yup**: JavaScript schema builder for value parsing and validation
+- **Formik**: Form library for React
 
-### `npm test`
+### Backend:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Spring Boot**: Java-based framework for building scalable and secure enterprise applications
+- **MySQL**: Relational database management system
+- **Spring Boot Dependencies**:
+  - `spring-boot-starter-web`: Starter for building web applications
+  - `spring-boot-starter-data-jpa`: Starter for using Spring Data JPA with Hibernate
+  - `spring-boot-starter-data-rest`: Starter for exposing Spring Data repositories over REST
+  - `spring-boot-starter-data-mysql`: Starter for MySQL database connectivity
+  - `lombok`: Java library for reducing boilerplate code
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+    ```bash
+    cd your-repository
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Frontend setup:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    cd frontend
+    npm install
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Backend setup (Assuming Maven is installed):**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    cd ../backend
+    mvn spring-boot:run
+    ```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Provide instructions on how to use your application. Include any configuration settings, environment variables, or user accounts if applicable.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+If you want to contribute to the project, provide guidelines for how others can do so.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+Include your contact information or a link to your GitHub profile.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
