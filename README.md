@@ -67,11 +67,9 @@ If you want to contribute to the project, provide guidelines for how others can 
 
 
 ## Contact
-Supratim Sarkar,India
+Supratim Sarkar,India.
+
 Email- supratimsarkar2001@gmail.com
-
-
-Include your contact information or a link to your GitHub profile.
 
 ---
 
